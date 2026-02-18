@@ -1,54 +1,17 @@
-# ci-cd-flask
+# Actividad-4.1-Introduccion-a-CI-CD
+Para empezar la práctica, tenemos que clonar el repositorio a nuestra máquina local, y procedemos a crear el entorno virtual e instalar las dependencias.
 
-Este repositorio contiene los archivos necesarios para realizar una práctica de
-**introducción a CI/CD** para una aplicación [Flask][1].
+A parte del test ya creado, vamos a crear otro test para probar
+<img width="684" height="380" alt="image" src="https://github.com/user-attachments/assets/4ca0563f-cd64-4d9a-9737-ebac07a2400c" />
 
-En esta práctica vamos a realizar las siguientes tareas.
 
-- **Intregración Continua (CI) con GitHub Actions**. Vamos a automatizar la ejecución de
-  tests unitarios cada vez que se haga un _push_ a la rama `main`.
-- **Entrega Continua (CD)**. Vamos a automatizar la creación y publicación de
-  una imagen Docker en Docker Hub cuando se pasen los test unitarios.
-- **Despliegue Continuo (CD)**. Vamos a automatizar el despliegue de la imagen
-  Docker en AWS.
+Una vez tengamos todo el entorno preparado y algún test más creado, los probamos a ver si funcionan bien
+<img width="1344" height="178" alt="image" src="https://github.com/user-attachments/assets/30aee170-70c9-4c18-a5b9-17e321ccd77a" />
 
-## Cómo crear un virtualenv en Python
 
-Creamos el entorno virtual.
+Para que se suba el repositorio a docker tenemos que crear un token
+<img width="1218" height="840" alt="image" src="https://github.com/user-attachments/assets/329841f6-f54d-48c8-9956-e532d984090e" />
 
-```bash
-python3 -m venv venv
-```
 
-Activamos el entorno virtual.
-
-```bash
-source venv/bin/activate
-```
-
-Instalamos las dependencias.
-
-```bash
-pip install -r requirements.txt
-```
-
-Para desactivar el entorno virtual.
-
-```bash
-deactivate
-```
-
-## Cómo ejecutar los tests
-
-Para realizar los tests vamos a utilizar `unittest`, que es el framework de
-pruebas unitarias que viene integrado en Python.
-
-Desde la raíz del proyecto, ejecutamos el siguiente comando.
-
-```bash
-python3 -m unittest tests/*.py
-```
-
-Este comando ejecutará todos los tests que se encuentren en la carpeta `tests`.
-
-[1]: https://flask.palletsprojects.com/en/stable/
+Una vez lo creemos lo añadimos a nuestro github
+<img width="1047" height="525" alt="image" src="https://github.com/user-attachments/assets/68849c4f-0319-4b6d-aa56-97993480df2b" />
