@@ -15,3 +15,11 @@ Para que se suba el repositorio a docker tenemos que crear un token
 
 Una vez lo creemos lo añadimos a nuestro github
 <img width="1047" height="525" alt="image" src="https://github.com/user-attachments/assets/68849c4f-0319-4b6d-aa56-97993480df2b" />
+
+
+Hacemos push de nuestra aplicación
+<img width="1339" height="266" alt="image" src="https://github.com/user-attachments/assets/9b6a988b-03c5-4435-baf4-8cb4472f0197" />
+
+
+Una vez termine nos debe aparecer el repositorio en docker hub
+<img width="1266" height="706" alt="image" src="https://github.com/user-attachments/assets/50e6b8e7-5142-423f-a2e5-b6b461229a68" />
